@@ -1,0 +1,67 @@
+@extends('master')
+@section('content')
+<div class="container">
+  <legend><h3>2018/12月客戶別銷售金額統計</h3></legend>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>客戶名稱</th>
+        <th>出貨數量</th>
+        <th>出貨金額</th>
+        <th>退貨數量</th>
+        <th>退貨金額</th>
+        <th>退貨率</th>
+        <th>總金額</th>
+        <th>總成本</th>
+        <th>總利潤</th>
+        <th>利潤率</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A公司</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <legend><h3>2018/12月產品別銷售金額統計</h3></legend>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>產品名稱</th>
+        <th>出貨數量</th>
+        <th>出貨金額</th>
+        <th>退貨數量</th>
+        <th>退貨金額</th>
+        <th>退貨率</th>
+        <th>總金額</th>
+        <th>總成本</th>
+        <th>總利潤</th>
+        <th>利潤率</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A產品</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+@endsection
